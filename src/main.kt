@@ -20,7 +20,6 @@ fun main(){
 class Human(var name:String,var age:Int,var weight:Double){
 
     fun eat(foodWeight:Int){
-        (foodWeight.toString())
         weight+=foodWeight
     }
     fun speak(speech:String){
